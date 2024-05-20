@@ -1,6 +1,12 @@
 # Proyecto 02: Offensive Audit Services.
+## Índice
+1. [Investigación de Tipos de Ataque](#id1)
+2. [Tipos de Auditoría de seguridad informática](#id2)  
+3. [Investigación de Metodología del Prentesting](#id3)
+4. [Evaluación de Herramientas de Monitorización](#id4)
+5. [Referencias](#id5)
 
-# Investigación tipos de ataques
+# Investigación tipos de ataques<a name="id1"></a>
 
 Los ataques informáticos son un intento organizado o intencionado que busca explotar alguna vulnerabilidad o debilidad en las redes informáticas, tanto software como hardware, con el objetivo de tener algún beneficio.
 
@@ -31,7 +37,7 @@ He aquí cómo se benefician los ciberdelincuentes de los ataques de fuerza brut
 Cada ataque de fuerza bruta puede utilizar diferentes métodos para descubrir tus datos sensibles. Podrías estar expuesto a cualquiera de los siguientes métodos populares de fuerza bruta:
 
 - **Ataques simples de fuerza bruta:** Los hackers intentan adivinar lógicamente tus credenciales, sin ayuda de herramientas de software u otros medios. Estos pueden revelar contraseñas y PIN extremadamente sencillos. Por ejemplo, una contraseña establecida como *“guest12345”*.
-- **Ataques de diccionario:** En un ataque estándar, un hacker elige un objetivo y comprueba las posibles contraseñas con ese nombre de usuario. A este tipo de ataques se les denomina [ataques de diccionario](https://www.kaspersky.es/resource-center/definitions/what-is-a-dictionary-attack). Los ataques de diccionario son la herramienta más básica en los ataques de fuerza bruta.
+- **Ataques de diccionario:** En un ataque estándar, un hacker elige un objetivo y comprueba las posibles contraseñas con ese nombre de usuario. A este tipo de ataques se les denomina ataques de diccionario. Los ataques de diccionario son la herramienta más básica en los ataques de fuerza bruta.
 - **Ataques híbridos de fuerza bruta:** Estos ataques se utilizan para averiguar contraseñas combinadas que mezclan palabras comunes con caracteres aleatorios. Un ejemplo de ataque de fuerza bruta de esta naturaleza incluiría contraseñas como *NewYork1993* o *Spike1234*.
 - **Ataques de fuerza bruta inversos** Tal y como su nombre indica, un ataque de fuerza bruta inverso invierte la estrategia de ataque comenzando con una contraseña conocida. A continuación, los hackers buscan en millones de nombres de usuario hasta encontrar una coincidencia.
 - **Relleno de credenciales** Si un hacker tiene una combinación de nombre de usuario y contraseña que funciona en un sitio web, la probará también en muchos otros.
@@ -162,7 +168,7 @@ Técnicas que engañan a los usuarios para que descarguen e instalen el ransomwa
 5. **Redes de Botnets:**
 Uso de redes de computadoras infectadas (botnets) para distribuir ransomware de manera masiva.
 
-## **Tipos de auditorías de seguridad informática**
+## **Tipos de auditorías de seguridad informática**<a name="id2"></a>
 
 No todas las empresas necesitan realizar una auditoría completa de todos sus servicios y activos. En cambio, vamos a optar por auditorías específicas que son comunes y aplicables a la mayoría de las organizaciones:
 
@@ -202,7 +208,7 @@ Evalúa los procedimientos y capacidades de respuesta de la organización ante i
 
 Esta auditoría prueba la capacidad de la empresa para reaccionar ante incidentes, su contención y resolución, y la eficacia del playbook de incidentes para evitar la propagación y gestionar futuros incidentes de manera eficiente.
 
-# **Investigación de Metodologías de Pentesting**
+# **Investigación de Metodologías de Pentesting**<a name="id3"></a>
 
 En esta parte del proyecto, realizaremos un estudio de diferentes metodologías de pentesting que podemos utilizar durante una auditoría.
 
@@ -407,7 +413,7 @@ La metodología PTES se puede adaptar para abordar diferentes tipos de auditorí
     - La fase de Modelado de Amenazas y Post-Explotación permite evaluar la capacidad de respuesta ante incidentes de seguridad.
     - La fase de Informe y la fase de Resolución de Deficiencias se utilizan para documentar los hallazgos y mejorar los procedimientos de gestión de incidentes.
     
-    # **Evaluación de Herramientas de Monitorización**
+    # **Evaluación de Herramientas de Monitorización**<a name="id4"></a>
     
     Para ofrecer servicios de auditoría ofensiva efectivos, es crucial contar con herramientas avanzadas de monitorización de seguridad. Estas herramientas permitirán detectar y analizar vulnerabilidades, gestionar eventos de seguridad y monitorear el tráfico de red, esencial para implementar la metodología PTES de manera eficiente.
     
@@ -458,3 +464,14 @@ La metodología PTES se puede adaptar para abordar diferentes tipos de auditorí
     **Total Estimado**: $139,389
     
     Esta inversión inicial asegura que nuestra empresa de ciberseguridad cuenta con las herramientas y recursos necesarios para realizar auditorías de seguridad efectivas y cumplir con los objetivos establecidos en nuestra metodología de pentesting PTES.
+
+## Referencias <a name="id5"></a>
+[Metodología OSSTMM](https://www.ciberseguridad.eus/ciberpedia/vulnerabilidades/open-source-security-testing-methodology-manual-osstmm)  
+[(OWASP)](https://owasp.org/www-project-web-security-testing-guide/)  
+[Penetration Testing Execution Standard(PTES)](https://www.ciberseguridad.eus/ciberpedia/marcos-de-referencia/penetration-testing-execution-standard-ptes)   
+[Tipos de Auditoría Ofensiva](https://blog.hubspot.es/website/auditoria-de-seguridad)  
+[Auditoria de cumplimiento normativo](https://www.compliance-antisoborno.com/auditoria-de-cumplimiento-normativo-como-prepararse-para-superarla-con-exito/)  
+[Auditoria seguridad informática](https://unirfp.unir.net/revista/ingenieria-y-tecnologia/auditoria-seguridad-informatica/#:~:text=La%20auditor%C3%ADa%20de%20seguridad%20inform%C3%A1tica,una%20empresa%20y%20ponerle%20soluci%C3%B3n.)  
+[Pasos para realizar una auditoria de ciberseguridad](https://mrinformatica.es/pasos-para-realizar-una-auditoria-de-ciberseguridad/)  
+[WireShark](https://openwebinars.net/blog/wireshark-que-es-y-ejemplos-de-uso/)   
+[Metaesploit](https://keepcoding.io/blog/que-es-metasploit-ciberseguridad/)  
