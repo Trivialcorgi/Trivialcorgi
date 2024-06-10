@@ -60,31 +60,31 @@ Hashes comprobados:
 
 SHA256:
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled.png)
+![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled.png)
 
 - captura_ram.lime.zip
 
 SHA256:
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%201.png)
+![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%201.png)
 
 - captura_ram.live
 
 SHA256:
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%202.png)
+![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%202.png)
 
 - imagen_disco.dd.zip
 
 SHA256:
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%203.png)
+![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%203.png)
 
 - image_disco.dd
 
 SHA256:
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%204.png)
+![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%204.png)
 
 Con esto, podemos ver que con los 5 Hashes, coinciden todos con los dados anteriormente.
 
@@ -185,34 +185,34 @@ Hallazgo 1
 
 | Ruta | /root/var/www/ping.php |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%205.png) |
 | MAC | Modify: 2022-05-20 11:09:37.000000000 -0400 |
 | Tamaño | 542 |
 | HASH MD5 | d3f424335dac2d8af26ad3f0a99a1a7d  |
 | HASH SHA1 | 525132ce24328226594b0f97d0ef2d3f8b7a422e |
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%205.png)
+
 
 Hallazgo 2
 
 | Ruta | /root/var/log/apache2/access.log |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%206.png) |
 | MAC | Modify: 2022-05-20 11:21:03.000000000 -0400 |
 | Tamaño | 3494 |
 | HASH MD5 | a71e80bd1ad541352d5907628f1bb3ce |
 | HASH SHA1 | 640b5541fb9d263389b923ad786701ab149f84f9 |
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%206.png)
+
 
 Hallazgo 3
 
 | Ruta | /root/var/www/passwd.txt |
 | --- | --- |
-| Contenido |  |
+| Contenido | ![Untitled](https://github.com/Trivialcorgi/Trivialcorgi/blob/main/Analisis%20Forense/Proyecto%205/Img/Untitled%207.png) |
 | MAC | Modify: 2022-05-20 11:13:49.000000000 -0400 |
 | Tamaño | 1626 |
 | HASH MD5 | 7cd7b33f99cc526d01473b553e1042d5 |
 | HASH SHA1 | 2d8c72a744c486342f5ec770ac27e8dd7b2f2ee0 |
 
-![Untitled](Informe%20Te%CC%81cnico%20Proyecto%205%20844c0d6cd7434be4bf62f55424e2aec6/Untitled%207.png)
+
